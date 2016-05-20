@@ -10,5 +10,4 @@ function Start () {
 function Update () {
   var velocity = new Vector2(Time.time * bgSpeed, 0); 
   GetComponent.<Renderer>().material.mainTextureOffset = velocity;
-  //aux += new Vector2(bgSpeed *cameraSpeed * Time.deltaTime, 0);
 }
